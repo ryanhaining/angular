@@ -33,7 +33,7 @@ abstract class Router {
   ///
   /// This occurs after all active [CanNavigate] implementations permit
   /// navigation, but before any other router lifecycle method are invoked. Note
-  /// that this does not necessary indicate the start of a successful
+  /// that this does not necessarily indicate the start of a successful
   /// navigation, as it could be blocked by another lifecycle implementation or
   /// be an invalid request.
   ///
